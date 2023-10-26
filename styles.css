@@ -1,0 +1,42 @@
+body{
+    background-image: url(images/abstract-colorful-lines-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1300px;
+    height: 1500px;
+
+}
+#initial-scale{
+    background-color: blueviolet;
+    border: solid;
+    border-radius: 15px;
+    border-color: salmon;
+    width: 223px;
+}
+.caja1{
+    background-color: blueviolet;
+    border-radius: 15px;
+}
+.caja2{
+    width: 500px;
+    height: 500px;
+}
+.caja3{
+    background-image: url(images/fondo.gif);
+    color: white;
+    width: 223px;
+    border-radius: 20px;
+}
+button{
+    border-radius: 20px;
+}
+.icon{
+    width: 3%;
+    height: 3%;
+    
+}
+img{
+    width: 500px;
+    height: 500px;
+}
