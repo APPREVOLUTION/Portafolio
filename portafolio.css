@@ -1,0 +1,39 @@
+body{
+    background-color: grey;
+}
+
+.head{
+    background-color: black;
+    background-image: url(images/fondo.gif);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: white;
+    border-radius: 15px;
+    margin: 3%;
+    height: 100px;
+    text-align: center;
+}
+.Links{
+    background-color: black;
+    margin: 5%;
+}
+a{
+    color: white;
+    margin: 10%;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin: 0%;
+}
+img:hover{
+    clip: unset;
+    width: 100px;
+    height: 100px;
+}
+.content{
+    background-color: transparent;
+    border-color: black;
+    border: solid;
+    width: 200px;
+}
