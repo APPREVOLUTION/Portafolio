@@ -17,7 +17,7 @@
 
   <h2>registrate en mi <br> Portafolio</h2>
 
-  <div>
+  <div class="formulario">
   <form action="https://formspree.io/f/mqkvwwjg" method="post">
     <label for="username">nombre completo:</label>
     <input type="text" name="username" id="username" placeholder="escribe tu nombre">
@@ -25,7 +25,7 @@
   
   </div>
     
-  <div>
+  <div class="formulario">
     <form action="https://formspree.io/f/mqkvwwjg" method="post">
       <label for="username">correo electronico:</label>
       <input type="email" name="email" id="username" placeholder="user@email.com">
@@ -33,7 +33,7 @@
     
   </div>
      
-  <div>
+  <div class="formulario">
   <label for="pais">elige pais:</label>
   <select name="pais" id="pais">
     <option value="ar">argentina</option>
@@ -43,12 +43,12 @@
   </select>
   </div>
     
-  <div>
+  <div class="formulario">
     <label for="comentarios">tus comentarios:</label> <br>
     <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
   </div>
    
-  <div>
+  <div class="formulario">
     <p>¿eres mayor de edad?</p>
 
     <input id="¿eres mayor de edad?" type="radio" value="s" name="¿eres mayor de edad?">
@@ -71,18 +71,26 @@
   </center>
   <center>
   <div class="caja2">
-    <img src="images/photo2.jpg" alt="photo2"> 
-    <hr><h3>julian Daniel Giraldo Salazar</h3><hr><p>BIOGRAFIA <br> fecha de nacimiento: 8/01/2000 <br> lugar de nacimiento: Manizales Caldas. <br>  "La vida es corta, no la desperdicies en cosas que no te hacen feliz". <br> "Siempre hay una solución para todo, nunca pierdas la esperanza".</p>
-      <head>
+    <img src="images/photo2.jpg" alt="photo2">
+     
+    <div class="contenedor">
+      <hr><h3>julian Daniel Giraldo Salazar</h3><hr><p>BIOGRAFIA <br> fecha de nacimiento: 8/01/2000 <br> lugar de nacimiento: Manizales Caldas. <br>  "La vida es corta, no la desperdicies en cosas que no te hacen feliz". <br> "Siempre hay una solución para todo, nunca pierdas la esperanza".</p>
+      <head >
         <div class="caja3">
           <a href="portafolio.html"><button type="submit" >ingresar</button></a>
+
         </div>
+    
         
       </head>
+    </div>
   </div>
   
   </center>
-  
+
+  <footer>
+    <h1>adios</h1>
+  </footer>
   
   <script src="index.js"></script>
 </body>
