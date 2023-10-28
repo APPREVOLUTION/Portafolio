@@ -1,21 +1,30 @@
 body{
-    background-image: url(images/abstract-colorful-lines-background.jpg);
+    background-image: url(images/font.jpg);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 1300px;
-    height: 1500px;
+    
 
 }
 #initial-scale{
-    background-color: blueviolet;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: solid;
     border-radius: 15px;
     border-color: salmon;
+    color: white;
     width: 223px;
 }
+.formulario{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+   
+}
 .caja1{
-    background-color: blueviolet;
+    background-color: black;
+    color: white;
     border-radius: 15px;
 }
 .caja2{
@@ -23,13 +32,15 @@ body{
     height: 500px;
 }
 .caja3{
-    background-image: url(images/fondo.gif);
+    background-color: white;
     color: white;
     width: 223px;
     border-radius: 20px;
 }
 button{
     border-radius: 20px;
+    background-color: black;
+    color: white;
 }
 .icon{
     width: 3%;
@@ -39,4 +50,21 @@ button{
 img{
     width: 500px;
     height: 500px;
+}
+button:hover{
+    background-color: red;
+    width: 60px;
+    height: 30px;
+    color:black
+    
+}
+.contenedor{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 50%;
 }
