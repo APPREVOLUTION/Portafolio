@@ -1,10 +1,11 @@
 body{
     background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .head{
-    background-color: black;
     background-image: url(images/fondo.gif);
+    background-color: black;
     background-repeat: no-repeat;
     background-position: 50%;
     color: white;
@@ -21,6 +22,9 @@ a{
     color: white;
     margin: 10%;
 }
+a:hover{
+    color: red;   
+}
 img{
     width: 50px;
     height: 50px;
@@ -35,5 +39,25 @@ img:hover{
     background-color: transparent;
     border-color: black;
     border: solid;
-    width: 200px;
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.contenetor{
+    background-color: transparent;
+    width: 20%;
+    height: 500px;
+    margin-left:  80%;
+}
+.contenetor2{
+    background-color: transparent;
+    width: 50%;
+    height: 500px;
+    margin: auto;
+}
+.contenetor3{
+    background-color: transparent;
+    width: 20%;
+    height: 500px;
+    
 }
